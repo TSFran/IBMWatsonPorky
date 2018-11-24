@@ -1,0 +1,28 @@
+{
+  "name": "ibmwatsonporky",
+  "version": "1.0.0",
+  "description": "Desarrollo de una aplicación web con IBMWatson.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TSFran/IBMWatsonPorky.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TSFran/IBMWatsonPorky/issues"
+  },
+  "homepage": "https://github.com/TSFran/IBMWatsonPorky#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "nodemon": "^1.18.6",
+    "request": "^2.88.0",
+    "watson-developer-cloud": "^3.13.0"
+  }
+}

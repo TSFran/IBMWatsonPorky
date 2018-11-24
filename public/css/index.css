@@ -1,0 +1,78 @@
+body {
+    width: 100%;
+    background: url("../img/font.jpg");
+    height: calc(100vh);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+input {
+    margin-right: 40px;
+}
+
+.mensajes {
+    display: flex;
+    width: 100%;
+    margin-top: 5%;
+    margin-bottom: 50px;
+}
+
+.mensaje {
+    width: 240px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.bot {
+    background-color: rgb(59, 63, 66);
+    color: white;
+}
+
+.user {
+    align-self: flex-end;
+    background-color: white;
+}
+
+.s-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.s-container__title {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.s-container__title h1 {
+    width: 90%;
+    text-align: center;
+    margin: 10px;
+}
+
+.c-form__input {
+    border: none;
+    padding: 2px 4px;
+    border-radius: 4px;
+    outline: none;
+}
+
+.c-form__btn {
+    background: #e07b00;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    width: 100px;
+}
